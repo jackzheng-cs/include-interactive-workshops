@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.instructions {
+  max-width: 600px;
+  background: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ranking_container {
+  border: 2px transparent #f8f8f8;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  background: #f8f8f8;
+}
+
+.title_container {
+  /* TODO 1: Use display:flex to center or space out your title and names */
+  margin-bottom: 1rem;
+}
+
+/* 
+    TODO 2: Style the parent container for the 
+            “Favorite” and “Disliked” sections 
+*/
+
+.characterList {
+   display: flex;
+  flex-direction: column;
+}
+
+
+/* TODO 3: Add styles for .favorite and .disliked sections */
+
+.favorites{
+  display:flex;
+  flex-direction: column;
+}
+
+.dislikes{
+  display:flex;
+  flex-direction: column;
+}
+
+.selection {
+  text-align: center;
+  color: #000;
+  border: 2px #f8f8f8;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  background: #f8f8f8;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.characterCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.characterCard img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid transparent;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    border-color: #ff6f61;
+  }
+}
+
+/* ─────────────────────────────── */
+/* RESPONSIVE DESIGN EXAMPLE       */
+/* ─────────────────────────────── */
+
+@media (max-width: 700px) {
+//   .columns {
+//     flex-direction: column;
+//     align-items: center;
+//   }
+
+//   .favorite,
+//   .disliked {
+//     width: 100%;
+//   }
+}
