@@ -1,0 +1,68 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: solid black;
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.lesson {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  //   border: solid black;
+}
+
+.topic {
+  padding: 1rem;
+  width: 60%;
+  border: solid gray;
+  border-radius: 25px;
+  //   text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  ul {
+    font-size: 1.5rem;
+    list-style-type: circle;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  code {
+    font-size: 1.25rem;
+    border: solid gray;
+    background-color: rgb(231, 231, 231);
+  }
+}
+
+.buttonGroup {
+  margin: 0;
+}
+
+.backButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #cc0000;
+  color: #f5f5f5;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.2s ease;
+}
+
+.backButton:hover {
+  background: #eb4343;
+}

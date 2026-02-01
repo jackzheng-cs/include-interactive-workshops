@@ -1,0 +1,51 @@
+export const team = [
+  {
+    id: 1,
+    name: "Pikachu",
+    type: "Electric",
+    generation: 1,
+    image: "./pokemon/pikachu.png",
+  },
+  {
+    id: 2,
+    name: "Charmander",
+    type: "Fire",
+    generation: 1,
+    image: "./pokemon/charmander.png",
+  },
+  {
+    id: 3,
+    name: "Squirtle",
+    type: "Water",
+    generation: 1,
+    image: "./pokemon/squirtle.png",
+  },
+  {
+    id: 4,
+    name: "Bulbasaur",
+    type: "Grass",
+    generation: 1,
+    image: "./pokemon/bulbasaur.png",
+  },
+  {
+    id: 5,
+    name: "Chimchar",
+    type: "Fire",
+    generation: 4,
+    image: "./pokemon/chimchar.png",
+  },
+  {
+    id: 6,
+    name: "Piplup",
+    type: "Water",
+    generation: 4,
+    image: "./pokemon/piplup.png",
+  },
+  {
+    id: 7,
+    name: "Turtwig",
+    type: "Grass",
+    generation: 4,
+    image: "./pokemon/turtwig.png",
+  },
+];
