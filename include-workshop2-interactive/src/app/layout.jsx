@@ -1,5 +1,3 @@
-import Header from "./_components/Header/Header";
-import Footer from "./_components/Footer/Footer";
 import "./_globals/globals.scss";
 import Workshop2Challenege from "./flexbox-challenge/Wokshop2Challenge";
 

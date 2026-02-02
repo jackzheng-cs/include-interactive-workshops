@@ -56,8 +56,7 @@ export default function Workshop2Challenege() {
     { name: "Alucard", image: "/characters/alucard.jpg" },
     { name: "Kaguya", image: "/characters/kaguya.jpg" },
     { name: "Ken", image: "/characters/ken.jpg" },
-    { name: "Griffith (Why? Just Why?)", image: "/characters/dog_water.jpg" },
-    { name: "Luffy Roblox", image: "characters/luffyroblox.jpg" },
+    { name: "Griffith", image: "/characters/dog_water.jpg" },
     // Don't see your favorite in the list? Go grab your favorite character :3
     // Example:
     // { name: "Your Character", image: "/characters/your_image.jpg" },
@@ -100,8 +99,7 @@ export default function Workshop2Challenege() {
                 <h2>Our Flexbox Favorites</h2>
                 <h4>By: Jasper and Jack</h4>
           */}
-              <h2>Ranking Anime Characters</h2>
-              <h3>By: Grace and Darrius</h3>
+              <h2>Challenge Here!</h2>
         </div>
 
         {/*
@@ -111,31 +109,28 @@ export default function Workshop2Challenege() {
           Hint: This parent div will probably need `display: flex` in CSS.
         */}
         <div className={styles.characterList}>
-           
           {/*
             TODO 3: Create your “Favorite” section here.
             - Label it clearly with a <h3> or <h4>.
             - Add a few favorite characters using <img /> tags.
             - Experiment with Flexbox to form a pyramid layout.
           */}
+
           <div className={styles.favorites}>
-            <h3>Favorites</h3>
-            <img src={"characters/luffyroblox.jpg"} alt="Luffy Roblox" />
-            <img src={"characters/Akame.jpg"} alt="Akame" />
 
           </div>
 
-          <div className={styles.dislikes}>
-            <h3>Dislikes</h3>
-            <img src={"/characters/kaguya.jpg"} alt="Kaguya" />
-            <img src={"/characters/megumi.jpg"} alt="Megumi" />
-          </div>
+
           {/*
             TODO 4: Create your “Disliked” section here.
             - Label it clearly with a <h3> or <h4>.
             - Add a few disliked characters using <img /> tags.
             - Practice Flexbox alignment to form a *reverse pyramid*.
           */}
+
+		    <div className={styles.dislikes}>
+
+          </div>
         </div>
       </section>
 
